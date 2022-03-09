@@ -1,19 +1,20 @@
-name: MyPluginA
+ame: MyPluginA
 description: My plugin A
 types:
   - app
 inputs:
-  - label: Input Example
+  - label: Meta Description
     type: text
-    name: example
-    default: any text
-  - label: Example of number
+    name: meta_description
+    default: "Description of my app"
+  - label: Version
     type: int
-    name: any_number
-    default: "10"
-  - label: Example of list
+    name: version
+    default: "1"
+  - label: Meta Keywords
     type: multiselect
-    name: any_list
+    name: keywords
     items:
-      - item1
-      - item2
+      - HTML
+      - JS
+      - CSS
